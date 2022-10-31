@@ -1,0 +1,13 @@
+div{
+    width: 25%;
+    height: 25%;
+    float: left;
+    display: block;
+    background-color: white;
+    box-sizing: border-box;
+}
+body{
+    width: 97vw;
+    height: 97vh;
+    box-sizing: border-box;
+}

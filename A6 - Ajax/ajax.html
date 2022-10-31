@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AJAX</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    
+</head>
+<body>
+    <form name="Cadastrar">
+        <div class="div" id="cadastrar">
+            CADRASTRO USUARIO: <br> <br>
+            <label for="nome">Nome:<br>
+                <input type="text" name="nome" id="nome" placeholder="Digite o Nome para Cadastro"> <br>
+            </label>
+            <br>
+
+            <label for="telefone">Telefone:<br>
+                <input type="text" name="telefone" id="telefone" placeholder="Digite o Telefone para Cadastro"> <br>
+            </label>
+            <br>
+
+            <label for="email">Email:<br>
+                <input type="text" name="email" id="email" placeholder="Digite o Email para Cadastro"> <br>
+            </label>
+            <br>
+
+            <input type="submit" value="Cadastrar" id="cadastrarBt">
+            <input type="button" value="Cancelar" id="cancelar">
+        </div>
+    </form>
+
+    <form name="Editar">
+        <div class="div" id="editar">
+            EDITAR USUARIO: <br> <br>
+            <label for="id">ID do Usuario:<br>
+                <input type="text" name="Id" id="id" placeholder="Digite o ID de Edição"> <br>
+            </label>
+            <br>
+
+            <label for="nome">Nome:<br>
+                <input type="text" name="nome" id="nome" placeholder="Digite o Nome para Edição"> <br>
+            </label>
+            <br>
+
+            <label for="telefone">Telefone:<br>
+                <input type="text" name="telefone" id="telefone" placeholder="Digite o Telefone para Edição"> <br>
+            </label>
+            <br>
+
+            <label for="email">Email:<br>
+                <input type="text" name="email" id="email" placeholder="Digite o Email para Edição"> <br>
+            </label>
+            <br>
+
+            <input type="button" value="Editar" id="editarBt">
+            <input type="button" value="Cancelar" id="cancelar">
+
+        </div>
+    </form>
+
+    <form name="Remover">
+        <div class="div" id="remover">
+            REMOVER USUARIO: <br> <br>
+            <label for="id">ID do Usuario:<br>
+                <input type="text" name="id" id="id" placeholder="Digite o ID para Remoção"> <br>
+            </label>
+            <br>
+            <input type="button" value="Remover" id="removerBt">
+            <input type="button" value="Cancelar" id="cancelar">
+        </div>
+    </form>
+
+    <form name="Listar">
+        <div class="div" id="listar">
+            LISTA DE USUARIOS:
+            <br>
+            <br>
+            <input type="button" value="Atualizar Lista" id="listarBt">
+            <br>
+            <br>
+            <p id="listaP">Nome: ----- / ID: ---</p><br>
+        </div>
+    </form>
+
+    <script src="code.js"></script>
+</body>
+</html>

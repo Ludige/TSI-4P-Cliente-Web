@@ -1,0 +1,21 @@
+div{
+    width: 25%;
+    height: 25%;
+    float: left;
+    display: block;
+    background-color: white;
+}
+
+input[type=text]{
+    width: 63%;
+}
+
+.erro{
+    border: solid red 1px;
+    box-sizing: border-box;
+}
+
+.sucesso{
+    border: solid green 1px;
+    box-sizing: border-box;
+}

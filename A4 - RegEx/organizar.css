@@ -1,0 +1,75 @@
+/*  */
+body{
+    width: 98vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* alinha o conteudo horizontalmente*/
+    align-items: center; /* alinha o conteudo verticalmente */
+    box-sizing: border-box;
+}
+
+#corpo{
+    width: 45%;
+    height: auto;
+    border: 2px solid;
+    box-sizing: border-box;
+    border-color: rgb(70, 70, 70);
+    background-color:rgb(245, 250, 229);
+}
+
+#formulario{
+    margin-left: 35%;
+}
+
+p{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 22%;
+    margin-right: 27.3%;
+    margin-top: 10%;
+    border-bottom: 1px solid black;
+    float: left;
+}
+
+/*  */
+
+input{
+    width: 155px;
+    font-size: 15px;
+}
+
+input[name="idioma"]{
+    width: 15px;
+}
+input[name="sexo"]{
+    width: 15px;
+}
+
+select{
+    width: 160px;
+}
+
+label{
+    font-size: 18px;
+}
+
+.erro{
+    border: solid red 1px;
+    box-sizing: border-box;
+}
+
+.sucesso{
+    border: solid green 1px;
+    box-sizing: border-box;
+}
+
+/* B de box e buttom, pq vou mudar o texto */
+.erroB{
+    color: red;
+}
+
+.sucessoB{
+    color: green;
+}
+

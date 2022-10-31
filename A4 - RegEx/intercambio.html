@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário de Intercambio</title>
+    <link rel="stylesheet" href="organizar.css" type="text/css">
+</head> 
+<body>
+    <div id="corpo">
+        <p>Formulario de Intercâmbio</p>
+        <div id="formulario">
+            <form name="cadastro">
+                <label for="nome"> Nome: <br>
+                    <input type="text" name="nome" placeholder="Digite seu nome">
+                </label><br>
+
+                <label for="idade"> Idade: <br>
+                    <input type="number" name="idade" id="idade"
+                    placeholder="Digite sua idade">
+                </label><br>
+
+                <label for="data"> Data de Nascimento: <br>
+                    <input type="date" name="data" id="data">
+                </label><br>
+
+                <label for="cpf">Cpf / Cnpj: <br>
+                    <input type="number" name="cpf" id="cpf"
+                    placeholder="Digite CPF/CNPJ">
+                </label><br>
+
+                <label for="email"> Email: <br>
+                    <input type="email" name="email" id="email"
+                    placeholder="aaa@mail.com"> 
+                </label><br>
+
+                <label for="fone"> Telefone: <br>
+                    <input type="number" name="fone" id="fone"
+                    placeholder="Digite seu telefone">
+                </label><br>
+
+                <label>Selecione seu gênero:</label> <br>
+                <div id="sexo">
+                    <input type="radio" name="sexo" id="HC" value="HC"> 
+                    <label for="HC">Homem Cis</label><br>
+                    <input type="radio" name="sexo" id="HT" value="HT"> 
+                    <label for="HT">Homem Trans</label><br>
+                    <input type="radio" name="sexo" id="MC" value="MC">
+                    <label for="MC">Mulher Cis</label><br>
+                    <input type="radio" name="sexo" id="MT" value="MT">
+                    <label for="MT">Mulher Trans</label><br>
+                    <input type="radio" name="sexo" id="NB" value="NB">
+                    <label for="NB">Não Binário</label><br>
+                    <input type="radio" name="sexo" id="O" value="O">
+                    <label for="O">Outro</label><br>
+                </div>
+
+                <label>Selecione pelomenos 2 idiomas: <br>
+                </label>
+                <div id="idiomas">
+                    <input type="checkbox" name="idioma" id="br" value="ptbr">
+                    <label for="br">Português</label> <br>
+                    <input type="checkbox" name="idioma" id="en" value="en">
+                    <label for="en">Inglês</label> <br>
+                    <input type="checkbox" name="idioma" id="esp" value="esp">
+                    <label for="esp">Espanhol</label> <br>
+                    <input type="checkbox" name="idioma" id="it" value="it">
+                    <label for="it">Italiano</label> <br>
+                    <input type="checkbox" name="idioma" id="fr" value="fr">
+                    <label for="fr">Francês</label> <br>
+                    <input type="checkbox" name="idioma" id="ru" value="ru">
+                    <label for="ru">Russo</label> <br>
+                    </div>
+                
+                <label for="estados">Estado: <br>
+                    <select name="estados" id="aaa">
+                        <option value="">Selecione um Estado</option>
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BH">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="ES">Espirito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernanbuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                        <option value="DF">Destrito Federal</option>
+                    </select> <br>
+                </label>
+
+                <label for="cidades"> Cidade: <br>
+                    <select name="cidades">
+                        <option value="">Selecione uma Cidade</option>
+                        <option value="Mr">Morrinhos</option>
+                        <option value="Ba">Buriti Alegre</option>
+                        <option value="Gt">Goiatuba</option>
+                        <option value="Cn">Caldas Novas</option>
+                    </select>
+                </label>
+
+                <br> <br>
+                <input type="submit" value="enviar">
+            </form>
+        </div>
+    </div>
+    <script src="code.js"></script>
+</body>
+</html>

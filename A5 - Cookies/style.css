@@ -1,0 +1,14 @@
+p{
+    font-size: 20px;
+    color: gray;
+}
+
+.erro{
+    border: solid red 1px;
+    box-sizing: border-box;
+}
+
+.sucesso{
+    border: solid green 1px;
+    box-sizing: border-box;
+}
