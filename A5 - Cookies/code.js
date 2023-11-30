@@ -25,21 +25,13 @@ function validarLogin(){
     }
 }
 
-function criarCookie(nome,senha){
+function criarCookie(chave,valor){
     let dataFinal = new Date();
     dataFinal.setDate(dataFinal.getDate() +2); 
-    
-    addCookie(nome, senha, dataFinal);
-}   
-
-function addCookie(chave, valor, dataFinal){
-    // seria certo usar o nome e a senha como os dados do cookie?
-    // ou deveria fazer dados separados?
 
     let cookie = `${chave}=${valor};expires=${dataFinal.toUTCString()}`;
     document.cookie = cookie;
-}
-
+}   
 function buscarCookie(){//ta com um monte de anotação pq eu tava tentando entender
     //vai buscar o cookie com a chave senha123 a unica passivel de ser criada NESSE codigo
     let cookies = document.cookie;
